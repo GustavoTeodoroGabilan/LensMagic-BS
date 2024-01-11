@@ -1,0 +1,54 @@
+.bg-imagem{
+    background-image: url(./img/pexels-pixabay-247298.jpg);
+    background-position: top;
+    background-size: cover;
+    height: 92vh;
+}
+
+h1{
+    font-size: 5em;
+}
+
+.flex-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 100px;
+}
+
+.icon-git{
+    height: 20%;
+}
+
+@media(max-width: 767px){
+    .flex-card{
+        flex-direction: column;
+    }
+
+    .img-quemSou{
+        display: none;
+    }
+
+    span{
+        display:none
+    }
+
+    h1{
+        font-size: 3em;
+    }
+
+    .bg-imagem{
+    background-image: url(./img/inicio-celular.jpg);
+    background-position: top;
+    background-size: cover;
+    height: 92vh;
+    }
+}
+
+@media (max-width: 1199px ) and (min-width: 768px) {
+    .flex-card{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
